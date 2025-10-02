@@ -105,7 +105,7 @@ public class BasicTxTest {
     }
 
     @Test
-    void inner_rollbak() { 
+    void inner_rollbak() {
         log.info("외부 트랜잭션 시작");
         TransactionStatus outer = txManager.getTransaction(new DefaultTransactionDefinition());
 
