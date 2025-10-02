@@ -49,7 +49,7 @@ public class BasicTxTest {
     }
 
     @Test
-    void double_commit() { 
+    void double_commit() {
         log.info("트랜잭션1 시작");
         TransactionStatus tx1 = txManager.getTransaction(new DefaultTransactionDefinition());
         log.info("트랜잭션1 커밋");
