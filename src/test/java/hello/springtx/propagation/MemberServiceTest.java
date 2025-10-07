@@ -88,7 +88,7 @@ public class MemberServiceTest {
 
     // memberService    = @Transactional:ON
     // memberRepository = @Transactional:ON
-    // log Resposiotry  = @Transactional:ON Exception
+    // log Resposiotry  = @Transactional:ON Exception 
     @Test
     void outerTxOn_fail() {
         // given
